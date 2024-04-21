@@ -1,4 +1,7 @@
 ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style-type: none;
 }
 
@@ -73,6 +76,8 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-top: 188px;
+    margin-bottom: 48px;
 }
 
 .order-service-btn {
@@ -82,6 +87,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    padding: 16px 32px;
+    margin-bottom: 188px;
 }
 
 .order-service-btn:hover,
@@ -109,6 +116,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .paragraph-text {
@@ -144,3 +152,39 @@ body {
 .text-white-footer {
     color: #f4f4fd;
 }
+
+.section-paddings {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-margin {
+    margin-bottom: 120px;
+}
+
+.container {
+   max-width: 1158px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.page-list {
+    display: flex;
+    column-gap: 24px;
+}
+.page-item {
+    width: calc((100% - 72px)/4;
+}
+
+ h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+
+ .page-logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+ }
+
