@@ -80,11 +80,10 @@ img {
 }
 .menu {
     display: flex;
-    gap: 40px;
 }
-/*.menu-item:not(:last-child) {
+.menu-item:not(:last-child) {
     margin-right: 40px;
-}*/
+}
 .top-contact-menu {
     display: flex;
     margin-top: 24px;
