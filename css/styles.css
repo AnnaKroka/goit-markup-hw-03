@@ -80,23 +80,13 @@ img {
 }
 .menu {
     display: flex;
-}
-.menu-item:not(:last-child) {
-    margin-right: 40px;
+    gap: 40px;
 }
 .top-contact-menu {
     display: flex;
+    gap: 40px;
     margin-top: 24px;
     margin-bottom: 24px;
-}
-.top-contact-item:first-child {
-    margin-left: 150px;
-   
-}
-.top-contact-item:last-child {
-    margin-left: 40px;
-    margin-right: 0px;
-    
 }
 .page-header-container {
     display: flex;
